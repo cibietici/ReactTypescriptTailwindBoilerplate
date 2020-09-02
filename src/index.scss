@@ -1,0 +1,28 @@
+$mainColor: #333;
+$fontColor: #ccc;
+
+body {
+  background-color: $mainColor;
+  color: $fontColor;
+  margin: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper{
+    max-width: 48rem;
+    margin: auto;
+}
+
+.icons {
+  height: 3rem;
+  pointer-events: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
